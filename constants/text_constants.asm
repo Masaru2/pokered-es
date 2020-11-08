@@ -3,8 +3,10 @@ DEF ITEM_NAME_LENGTH EQU 13
 DEF NAME_BUFFER_LENGTH EQU 20
 
 ; PrintNumber
-	const_def 5
-	const BIT_MONEY_SIGN     ; 5
+	const_def
+	const BIT_MONEY_SIGN     ; 0
+
+	const_def 6
 	const BIT_LEFT_ALIGN     ; 6
 	const BIT_LEADING_ZEROES ; 7
 

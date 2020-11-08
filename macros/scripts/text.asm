@@ -6,8 +6,8 @@ DEF cont   EQUS "db \"<CONT>\","  ; Scroll to the next line.
 DEF done   EQUS "db \"<DONE>\""   ; End a text box.
 DEF prompt EQUS "db \"<PROMPT>\"" ; Prompt the player to end a text box (initiating some other event).
 
-DEF page   EQUS "db \"<PAGE>\","         ; Start a new Pokédex page.
-DEF dex    EQUS "db \"<DEXEND>\", \"@\"" ; End a Pokédex entry.
+DEF page   EQUS "db \"<PAGE>\","  ; Start a new Pokédex page.
+DEF dex    EQUS "db \"@\", \"@\"" ; End a Pokédex entry.
 
 
 ; TextCommandJumpTable indexes (see home/text.asm)

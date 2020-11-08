@@ -956,6 +956,8 @@ wAIItem:: db
 wUsedItemOnWhichPokemon:: db
 ENDU
 
+	ds 5 ; extra for wAnimSoundID to land on $cf0c
+
 ; sound ID during battle animations
 wAnimSoundID:: db
 
@@ -2216,26 +2218,29 @@ wEventFlags:: flag_array NUM_EVENTS
 
 UNION
 wGrassRate:: db
-wGrassMons:: ds 10 * 2
+wGrassMons::
+	ds 10 * 2
 
 	ds 8
 
 wWaterRate:: db
-wWaterMons:: ds 10 * 2
+wWaterMons::
+	ds 10 * 2
 
 NEXTU
+
 ; linked game's trainer name
 wLinkEnemyTrainerName:: ds NAME_LENGTH
 
 	ds 1
 
 wSerialEnemyDataBlock:: ; ds $1a8
+;	ds $1a8
 
 	ds 9
 
 wEnemyPartyCount:: ds 1
 wEnemyPartySpecies:: ds PARTY_LENGTH + 1
-
 wEnemyMons::
 ; wEnemyMon1 - wEnemyMon6
 FOR n, 1, PARTY_LENGTH + 1
