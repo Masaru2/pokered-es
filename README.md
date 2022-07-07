@@ -1,6 +1,6 @@
 # Pokémon Edición Roja y Azul [![Build Status][ci-badge]][ci]
 
-This is a disassembly of Pokémon Edición Roja y Azul.
+This is a disassembly of Pokémon Edición Roja and Azul, originally by Petros / klektron.
 
 It builds the following ROMs:
 

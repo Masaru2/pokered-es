@@ -57,7 +57,7 @@
 	const CRED_EDASAWA        ; $36
 	const CRED_UESUGI         ; $37
 	const CRED_YOSHIMURA      ; $38
-	const CRED_SPA_TEXT       ; $39
+	const CRED_TRANS          ; $39
 	const CRED_ALCAMI         ; $3A
 	const CRED_GREPPI         ; $3B
 	const CRED_NAKAMICHI      ; $3C
@@ -65,10 +65,11 @@
 	const CRED_HARADA         ; $3E
 	const CRED_MURAKAWA       ; $3F
 	const CRED_FUKUI          ; $40
-	const CRED_NOE_TEST       ; $41
-	const CRED_ZEH_FEY        ; $42
-	const CRED_NOA_TEST       ; $43
-	const CRED_HUD_BUE        ; $44
+	const CRED_NOEPRODTEST    ; $41
+	const CRED_ZEHFEY         ; $42
+	const CRED_NOAPRODTEST    ; $43
+	const CRED_HUDSONBUECHELE ; $44
+DEF NUM_CRED_STRINGS EQU const_value
 
 	const_def -1, -1
 	const CRED_TEXT_FADE_MON ; $FF

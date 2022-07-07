@@ -49,8 +49,8 @@ CreditsTextPointers:
 	dw CredSaOota
 	dw CredYoshikawa
 	dw CredToOota
-	dw CredEuStaff
-	dw CredEuCoord
+	dw CredEUStaff
+	dw CredEUCoord
 	dw CredMoyse
 	dw CredPfitzner
 	dw CredKraft
@@ -58,7 +58,7 @@ CreditsTextPointers:
 	dw CredEdasawa
 	dw CredUesugi
 	dw CredYoshimura
-	dw CredSpaText
+	dw CredTrans
 	dw CredAlcami
 	dw CredGreppi
 	dw CredNakamichi
@@ -66,10 +66,10 @@ CreditsTextPointers:
 	dw CredHarada
 	dw CredMurakawa
 	dw CredFukui
-	dw CredNoeTest
-	dw CredZehFey
-	dw CredNoaTest
-	dw CredHudBue
+	dw CredNoEProdTest
+	dw CredZehAndFey
+	dw CredNoAProdTest
+	dw CredHudsonAndBuechele
 	assert_table_length NUM_CRED_STRINGS
 
 CredVersion:
@@ -173,9 +173,9 @@ CredYoshikawa:
 	db -6, "RENA YOSHIKAWA@"
 CredToOota:
 	db -6, "TOMOMICHI OOTA@"
-CredEuStaff:
+CredEUStaff:
 	db -6, "EQUIPO EUROPEO@"
-CredEuCoord:
+CredEUCoord:
 	db -9, "COORDINACIÓN EUROPA@"
 CredMoyse:
 	db -7, "CLAUDE M. MOYSE@"
@@ -191,7 +191,7 @@ CredUesugi:
 	db -5, "HIRO UESUGI@"
 CredYoshimura:
 	db -7, "KAMON YOSHIMURA@"
-CredSpaText:
+CredTrans:
 	db -7, "TEXTO CASTELLANO@"
 CredAlcami:
 	db -5, "SUSA ALCAMI@"
@@ -207,11 +207,11 @@ CredMurakawa:
 	db -7, "TERUKI MURAKAWA@"
 CredFukui:
 	db -5, "KOHTA FUKUI@"
-CredNoeTest:
+CredNoEProdTest:
 	db -9, "NOE PRODUCT TESTING@"
-CredZehFey:
+CredZehAndFey:
 	db -7, "KAI ZEH/ANDY FEY@"
-CredNoaTest:
+CredNoAProdTest:
 	db -9, "NOA PRODUCT TESTING@"
-CredHudBue:
+CredHudsonAndBuechele:
 	db -9, "K.HUDSON/T.BUECHELE@"
