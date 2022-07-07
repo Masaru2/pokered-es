@@ -4,8 +4,8 @@ This is a disassembly of Pokémon Edición Roja and Azul, originally by Petros /
 
 It builds the following ROMs:
 
-* Pokemon - Edicion Roja (Spain) (SGB Enhanced).gb `sha1: fc17c5b904d551b1b908054ccd1c493f755f832a`
-* Pokemon - Edicion Azul (Spain) (SGB Enhanced).gb `sha1: 7715e7b133e8634df48918b9138374110212a108`
+* Pokemon - Edicion Roja (S) [S].gb `sha1: fc17c5b904d551b1b908054ccd1c493f755f832a`
+* Pokemon - Edicion Azul (S) [S].gb `sha1: 7715e7b133e8634df48918b9138374110212a108`
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
@@ -19,6 +19,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 Other disassembly projects:
 
+- [**Pokémon Red/Blue**][pokered]
 - [**Pokémon Yellow**][pokeyellow]
 - [**Pokémon Gold/Silver**][pokegold]
 - [**Pokémon Crystal**][pokecrystal]
@@ -28,6 +29,7 @@ Other disassembly projects:
 - [**Pokémon FireRed**][pokefirered]
 - [**Pokémon Emerald**][pokeemerald]
 
+[pokered]: https://github.com/pret/pokered
 [pokeyellow]: https://github.com/pret/pokeyellow
 [pokegold]: https://github.com/pret/pokegold
 [pokecrystal]: https://github.com/pret/pokecrystal
