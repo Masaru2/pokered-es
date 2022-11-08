@@ -1338,11 +1338,10 @@ _WildMonAppearedText::
 	prompt
 
 _HookedMonAttackedText::
-	text "¡El malvado"
-	line "@"
+	text "¡El @"
 	text_ram wEnemyMonNick
 	text_start
-	cont "atacó!"
+	line "encamarado atacó!"
 	prompt
 
 _EnemyAppearedText::
